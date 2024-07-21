@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <link rel="icon" href="Images/icon png.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <div id="parent">
+       <div id="po">
+        <h1 id="h2op">PAYMENT OPTIONS</h1>
+    </div>
+        <div id="pdpd">
+        <h3 id="h3pd">PRICE DETAILS</h3>
+        <h3 id="h3pi">Price (1 item) <span id="sppr">₹ 3,299</span></h3>
+        <h3 id="h3dc">Delivery Charges <span id="spfr">FREE</span></h3>
+        <h3 id="h3ap"><b>Amount Payable <span id="spap">₹ 3,299</span> </b></h3>
+        </div>
+        <hr>
+    <div id="upiid">
+        <input type="radio" name="favourite">
+        <img id="imgupi" src="Images/upi.png" alt="" width="20px" height="20px">
+        <label id="label1">UPI</label>
+        <input id="upibox" type="" placeholder="Enter Upi Id">
+    </div>
+    <div id="cda">
+        <input type="radio" name="favourite">
+        <label id="label2">Credit / Debit / ATM Card</label> <br>
+        <input id="ecn" type="text" placeholder="Enter Card Number"><br>
+        <input id="mon" type="month">
+        <input id="cvv"  type="text" placeholder="CVV"> <br>
+        <button id="bt">Pay ₹ 3,299</button>
+    </div>
+    <div id="upiid2">
+        <input type="radio" name="favourite">  
+        <label id="label3">EMI (Easy Installment)</label>
+    </div>
+    <div id="upiid3">
+        <input type="radio" name="favourite">  
+        <label id="label4">Cash On Delivery</label>
+    </div>
+    <a href="sucessful.html"><button id="co">Confirm Order</button></a>
+
+    
+    </div>
+</body>
+</html>
